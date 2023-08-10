@@ -45,17 +45,17 @@ const Timer = ({ initialTime }) => {
 
   return (
     <div className='flex flex-col items-center'>
-      <div className='time text-[200px] font-semibold border border-green-500'>
+      <div className='time text-[200px] font-semibold text-[#ededde]'>
         {formatTime(time)}
       </div>
       <div className='flex gap-5'>
-        <button onClick={handleStart}>
+        <button onClick={handleStart} className='text-[#1c5f30] text-[24px]'>
           <FaPlay />
         </button>
-        <button onClick={handleStop}>
+        <button onClick={handleStop} className='text-[#df4949] text-[24px]'>
           <FaStop />
         </button>
-        <button onClick={handleReset}>
+        <button onClick={handleReset} className='text-[#332b81] text-[24px]'>
           <FaUndo />
         </button>
       </div>
