@@ -49,13 +49,13 @@ const Timer = ({ initialTime }) => {
         {formatTime(time)}
       </div>
       <div className='flex gap-5'>
-        <button onClick={handleStart} className='text-[#1c5f30] text-[24px]'>
+        <button onClick={handleStart} className='text-[#292a7e] text-[24px]'>
           <FaPlay />
         </button>
         <button onClick={handleStop} className='text-[#df4949] text-[24px]'>
           <FaStop />
         </button>
-        <button onClick={handleReset} className='text-[#332b81] text-[24px]'>
+        <button onClick={handleReset} className='text-[#b8b8b8] text-[24px]'>
           <FaUndo />
         </button>
       </div>
